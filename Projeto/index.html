@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="shortcut icon" href="./img/zombie.png" type="image/x-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="./css/index.css">
+  <title>Login</title>
+</head>
+<body>
+  <main>
+    <div id="div-title">
+      <h1>Login</h1>
+    </div>
+    <div id="div-form">
+      <form>
+        <div id="div-inputs">
+          <div id="div-email">
+            <label for="email">Digite o seu E-mail:</label>
+            <input class="inputs" type="text" id="email">
+          </div>
+          <br>
+          <div id="div-senha">
+            <label for="senha">Digite a sua Senha:</label>
+            <input class="inputs" type="password" id="senha">
+          </div>
+        </div>
+      </form>
+    </div>
+    <div id="div-links">
+      <span>Não possui uma conta ainda? <a href="./cadastro.html">Registre-se</a></span>
+      <input type="button" id="btn-login" value="Login" onclick="loginUsuario()">
+    </div>
+  </main>
+
+  <script src="./js/cadastro.js"></script>
+  <script src="./js/index.js"></script>
+</body>
+</html>

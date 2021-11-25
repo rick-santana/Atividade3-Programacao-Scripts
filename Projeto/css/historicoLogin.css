@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+:root{
+  --color-text-1: #fff;
+  --color-text-2: #000;
+}
+
+::selection{
+  background-color: #c4c4c4;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/backgroundImg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+#div-tittle{
+  margin-top: 2rem;
+}
+
+#box-lista{
+  text-align: center;
+}
+
+#div-lista{
+  margin-top: 2rem;
+}
+
+.logs{
+  text-decoration: none;
+  list-style: none;
+}
+
+.logs span{
+  text-decoration: underline;
+}
