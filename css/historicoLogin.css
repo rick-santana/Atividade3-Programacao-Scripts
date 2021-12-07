@@ -49,3 +49,132 @@ main{
 .logs span{
   text-decoration: underline;
 }
+
+/* REPONSIVO 768px */
+@media screen and (max-width: 768px){
+
+  #div-tittle{
+    margin-top: 2rem;
+  }
+  
+  #box-lista{
+    text-align: center;
+  }
+  
+  #div-lista{
+    margin-top: 2rem;
+  }
+
+  #ul-lista{
+    font-size: 0.90rem;
+  }
+  
+  .logs{
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  .logs span{
+    text-decoration: underline;
+  }
+
+}/* FIM 768px */
+
+/* REPONSIVO 520px */
+@media screen and (max-width: 520px){
+
+  body{
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/mobile/wallpaperMobile.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  #div-tittle{
+    margin-top: 2rem;
+    color: var(--color-text-1);
+  }
+  
+  #box-lista{
+    text-align: center;
+  }
+  
+  #div-lista{
+    margin-top: 2rem;
+    width: 20rem;
+  }
+
+  #ul-lista{
+    font-size: 0.90rem;
+    color: var(--color-text-1);
+  }
+  
+  .logs{
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  .logs span{
+    text-decoration: underline;
+  }
+
+}/* FIM 520px */
+
+/* REPONSIVO 380px */
+@media screen and (max-width: 380px){
+
+  #div-tittle{
+    margin-top: 2rem;
+    color: var(--color-text-1);
+  }
+  
+  #box-lista{
+    text-align: center;
+  }
+  
+  #div-lista{
+    margin-top: 2rem;
+    width: 17.5rem;
+  }
+
+  #ul-lista{
+    font-size: 0.80rem;
+    color: var(--color-text-1);
+    text-shadow: 1px 2px 3px #000;
+  }
+  
+  .logs{
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  .logs span{
+    text-decoration: underline;
+  }
+
+}/* FIM 380px */
+
+/* REPONSIVO 360px */
+@media screen and (max-width: 360px){
+
+  #div-lista{
+    margin-top: 2rem;
+    width: 15rem;
+  }
+
+  #ul-lista{
+    font-size: 0.80rem;
+    color: var(--color-text-1);
+    text-shadow: 1px 2px 3px #000;
+  }
+
+}/* FIM 360px */
