@@ -118,3 +118,517 @@ main{
   color: var(--color-text-1);
   background-color: #ff5858;
 }
+
+/* RESPONSIVO 992px */
+@media screen and (max-width: 992px){
+
+  #div-title h1{
+    color: var(--color-text-1);
+    margin-bottom: 3.12rem;
+    font-size: 2.5rem;
+    font-weight: 100;
+    text-shadow: 5px 2px 3px #c4c4c4;
+  }
+  
+  #div-form form{
+    background: rgba( 196, 196, 196, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2px );
+    -webkit-backdrop-filter: blur( 2px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+  
+    width: 43rem;
+    height: 17rem;
+  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #div-inputs{
+    display: flex;
+    font-size: 1rem;
+  }
+  
+  #div-email-nome{
+    margin-right: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 1rem;
+  }
+  #div-senha-confirm{
+    margin-left: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  #div-senha-confirm input{
+    /* margin-left: 10rem; */
+  }
+  
+  .inputs{
+    width: 11.37rem;
+    height: 1.5rem;
+    padding: 0px 5px;
+    background-color: #c4c4c4ab;
+    border-radius: 32px;
+    border: 1px solid #000;
+    margin-bottom: 2rem;
+    transition: .3s;
+  }
+  .inputs:focus{
+    background-color: #ffffffab;
+    transition: .3s;
+  }
+  
+  
+  #div-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: auto;
+    margin-top: 5px;
+    color: var(--color-text-1);
+  }
+  
+  #div-links a{
+    text-decoration: none;
+    color: #ff5858;
+  }
+  
+  #btn-cadastro{
+    width: 9rem;
+    height: 2rem;
+    border-radius: 32px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    color: var(--color-text-1);
+    background-color: #c4c4c4ab;
+    transition: .2s;
+  }
+  
+  #btn-cadastro:hover{
+    color: var(--color-text-1);
+    background-color: #ff5858;
+  }
+
+} /*FIM 992px */
+
+
+/* RESPONSIVO 768px */
+@media screen and (max-width: 768px){
+
+  #div-title h1{
+    color: var(--color-text-1);
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
+    font-weight: 100;
+    text-shadow: 5px 2px 3px #c4c4c4;
+  }
+  
+  #div-form form{
+    background: rgba( 196, 196, 196, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2px );
+    -webkit-backdrop-filter: blur( 2px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+  
+    width: 35rem;
+    height: 17rem;
+  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #div-inputs{
+    display: flex;
+    font-size: 0.85rem;
+  }
+  
+  #div-email-nome{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 1rem;
+  }
+  #div-senha-confirm{
+    margin-left: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  #div-senha-confirm input{
+    /* margin-left: 10rem; */
+  }
+  
+  .inputs{
+    width: 11.37rem;
+    height: 1.5rem;
+    padding: 0px 5px;
+    background-color: #c4c4c4ab;
+    border-radius: 32px;
+    border: 1px solid #000;
+    margin-bottom: 2rem;
+    transition: .3s;
+  }
+  .inputs:focus{
+    background-color: #ffffffab;
+    transition: .3s;
+  }
+  
+  
+  #div-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: auto;
+    margin-top: 5px;
+    color: var(--color-text-1);
+    font-size: 0.90rem;
+  }
+  
+  #div-links a{
+    text-decoration: none;
+    color: #ff5858;
+  }
+  
+  #btn-cadastro{
+    width: 9rem;
+    height: 2rem;
+    border-radius: 32px;
+    border: none;
+    font-size: 0.90rem;
+    cursor: pointer;
+    color: var(--color-text-1);
+    background-color: #c4c4c4ab;
+    transition: .2s;
+  }
+  
+  #btn-cadastro:hover{
+    color: var(--color-text-1);
+    background-color: #ff5858;
+  }
+
+} /*FIM 768px */
+
+/* RESPONSIVO 600px */
+@media screen and (max-width: 600px){
+
+  #div-title h1{
+    color: var(--color-text-1);
+    margin-bottom: 2.75rem;
+    font-size: 2.5rem;
+    font-weight: 100;
+    text-shadow: 5px 2px 3px #c4c4c4;
+  }
+  
+  #div-form form{
+    background: rgba( 196, 196, 196, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2px );
+    -webkit-backdrop-filter: blur( 2px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+  
+    width: 30rem;
+    height: 15rem;
+  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #div-inputs{
+    display: flex;
+    font-size: 0.82rem;
+  }
+  
+  #div-email-nome{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 1rem;
+  }
+  #div-senha-confirm{
+    margin-left: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .inputs{
+    width: 11.37rem;
+    height: 1.25rem;
+    padding: 0px 5px;
+    background-color: #c4c4c4ab;
+    border-radius: 32px;
+    border: 1px solid #000;
+    margin-bottom: 2rem;
+    transition: .3s;
+  }
+  .inputs:focus{
+    background-color: #ffffffab;
+    transition: .3s;
+  }
+  
+  
+  #div-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: auto;
+    margin-top: 10px;
+    color: var(--color-text-1);
+    font-size: 0.90rem;
+  }
+  
+  #div-links a{
+    text-decoration: none;
+    color: #ff5858;
+  }
+  
+  #btn-cadastro{
+    width: 8rem;
+    height: 1.75rem;
+    border-radius: 32px;
+    border: none;
+    font-size: 0.90rem;
+    cursor: pointer;
+    color: var(--color-text-1);
+    background-color: #c4c4c4ab;
+    transition: .2s;
+  }
+  
+  #btn-cadastro:hover{
+    color: var(--color-text-1);
+    background-color: #ff5858;
+  }
+
+} /*FIM 600px */
+
+/* RESPONSIVO 520px */
+@media screen and (max-width: 520px){
+
+  body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../img/mobile/wallpaperMobile.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  #div-title h1{
+    color: var(--color-text-1);
+    margin-bottom: 2.75rem;
+    font-size: 2.5rem;
+    font-weight: 100;
+    text-shadow: none;
+  }
+  
+  #div-form form{
+    background: rgba( 196, 196, 196, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2px );
+    -webkit-backdrop-filter: blur( 2px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+  
+    width: 25rem;
+    height: 15rem;
+  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #div-inputs{
+    display: flex;
+    font-size: 0.82rem;
+  }
+  
+  #div-email-nome{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 1rem;
+  }
+  #div-senha-confirm{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 1rem;
+  }
+  
+  .inputs{
+    width: 9rem;
+    height: 1.25rem;
+    padding: 0px 5px;
+    background-color: #c4c4c4ab;
+    border-radius: 32px;
+    border: 1px solid #000;
+    margin-bottom: 2rem;
+    transition: .3s;
+  }
+  .inputs:focus{
+    background-color: #ffffffab;
+    transition: .3s;
+  }
+  
+  
+  #div-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: auto;
+    margin-top: 10px;
+    color: var(--color-text-1);
+    font-size: 0.80rem;
+  }
+  
+  #div-links a{
+    text-decoration: none;
+    color: #ff5858;
+    text-shadow: 3px 1px 3px #2e2e2e;
+  }
+  
+  #btn-cadastro{
+    width: 6rem;
+    height: 1.75rem;
+    border-radius: 32px;
+    border: none;
+    font-size: 0.80rem;
+    cursor: pointer;
+    color: var(--color-text-1);
+    background-color: #999999ad;
+    transition: .2s;
+  }
+  
+  #btn-cadastro:hover{
+    color: var(--color-text-1);
+    background-color: #ff5858;
+  }
+
+} /*FIM 520px */
+
+/* RESPONSIVO 480px */
+@media screen and (max-width: 480px){
+
+  body{
+    width: 100vw;
+    height: 100vh;
+  }
+
+  #div-title h1{
+    color: var(--color-text-1);
+    margin-top: 2.75rem;
+    margin-bottom: 2.75rem;
+    font-size: 2.35rem;
+    font-weight: 100;
+    text-shadow: none;
+  }
+  
+  #div-form form{
+    background: rgba( 196, 196, 196, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2px );
+    -webkit-backdrop-filter: blur( 2px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+  
+    width: 20rem;
+    height: 23rem;
+  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #div-inputs{
+    display: block;
+    font-size: 0.85rem;
+  }
+  
+  #div-email-nome{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 0;
+  }
+  #div-senha-confirm{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 0;
+  }
+  
+  .inputs{
+    width: 12rem;
+    height: 1.25rem;
+    padding: 0px 5px;
+    background-color: #c4c4c4ab;
+    border-radius: 32px;
+    border: 1px solid #000;
+    margin-bottom: 2rem;
+    transition: .3s;
+  }
+  .inputs:focus{
+    background-color: #ffffffab;
+    transition: .3s;
+  }
+  
+  
+  #div-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20rem;
+    margin-bottom: 1.56rem;
+    color: var(--color-text-1);
+  }
+  
+  #div-links a{
+    text-decoration: underline;
+    color: #ff5858;
+    text-shadow: none;
+  }
+  
+  #btn-login{
+    width: 6rem;
+    height: 2.5rem;
+    border-radius: 32px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    color: var(--color-text-1);
+    background-color: #c4c4c4ab;
+    transition: .2s;
+  }
+  
+  #btn-login:hover{
+    border-radius: 32px;
+    color: var(--color-text-1);
+    background-color: #ff5858;
+  }
+
+} /*FIM 480px */
